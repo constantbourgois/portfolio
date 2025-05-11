@@ -29,6 +29,7 @@ export default function ContactForm() {
         setStatus('Message non envoyé.');
       }
     } catch (error) {
+      console.error('Error:', error);
       setStatus('Erreur lors de l\'envoi du message.');
     }
   };

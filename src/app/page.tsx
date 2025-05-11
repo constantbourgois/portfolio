@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import "./homestyle.scss";
 import 'animate.css';
 
@@ -13,7 +11,7 @@ export default function Home() {
         <div id="photo"><img src="/img/image.png" alt="moi" /></div>
         <div>
           <h2>DÉVELOPPEUR - INTÉGRATEUR WEB</h2>
-          <p>Enthousiasmé par les interactions UI, l'UX et le design. Expert en front-end responsive, compétent sur le back-end, je travaille en équipe et communique en francais, anglais et espagnol.</p>
+          <p>Enthousiasmé par les interactions UI, l&apos;UX et le design. Expert en front-end responsive, compétent sur le back-end, je travaille en équipe et communique en francais, anglais et espagnol.</p>
         </div>
       </article>
       <article id="skills">

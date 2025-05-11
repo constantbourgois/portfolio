@@ -55,7 +55,7 @@ export default function Projets(){
                         </g>
                     </svg>
                 </div>
-                <div className="taches cache">Intégration, développement, création d'un mini CMS et réalisation d'une animation en SVG</div>
+                <div className="taches cache">Intégration, développement, création d&apos;un mini CMS et réalisation d&apos;une animation en SVG</div>
                 <div className="lang cache">
                     <ul>
                         <li>HTML</li>
@@ -622,7 +622,7 @@ export default function Projets(){
                     </ul>
                 </div>
                 <div className="nom-projet"> Luxsense </div>
-                <div className="type-projet">Cabinet d'architecture</div>
+                <div className="type-projet">Cabinet d&apos;architecture</div>
                 <div><a target="_blank" href="http://www.luxsense.fr/">Lien</a></div>
             </div>
         </article>

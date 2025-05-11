@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-const nodemailer = require("nodemailer");
+import nodemailer from "nodemailer";
 
 
 export async function POST(request: Request) {

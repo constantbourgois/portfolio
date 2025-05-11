@@ -4,18 +4,18 @@ import "./globals.scss";
 import Link from 'next/link';
 
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
 });
 
-export const hind = Hind({
+const hind = Hind({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-hind",
 });
 
-export const dancing = Dancing_Script({
+const dancing = Dancing_Script({
   subsets: ["latin"],
   variable: "--font-dancing",
 })
