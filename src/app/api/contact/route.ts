@@ -1,38 +1,31 @@
 import { NextResponse } from 'next/server';
-import nodemailer from "nodemailer";
-
+import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
-  const body = await request.json();
-  const { name, email, message } = body;
+  try {
+    const { name, email, message } = await request.json();
 
-  if (!name || !email || !message) {
-    return NextResponse.json({ message: 'Missing fields' }, { status: 400 });
-  }
-
-  console.log('Contact Form Submission:', { name, email, message });
-
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: "constantbourgois@gmail.com",
-      pass: process.env.GOOGLE_APP_PASSWORD,
-    },
-  });
-  
-  // Wrap in an async IIFE so we can use await.
-  (async () => {
-    const info = await transporter.sendMail({
-      from: 'contact site web" <maddison53@ethereal.email>',
-      to: "constantbourgois@gmail.com",
-      subject: "contact site web",
-      text: "Hello world?", // plain‑text body
-      html: "from " + name + "<br>" + email + "<br> " + message, // HTML body
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS,
+      },
     });
-  
+
+    const info = await transporter.sendMail({
+      from: `"Constant Bourgois" <${process.env.MAIL_USER}>`,
+      to: process.env.MAIL_TO,
+      subject: "Contact site web",
+      text: `From ${name} <${email}>\n\n${message}`,
+      html: `from ${name} <br> ${email} <br> ${message}`,
+    });
+
     console.log("Message sent:", info.messageId);
-  })();
-
-  return NextResponse.json({ message: 'Message received' }, { status: 200 });
+    return NextResponse.json({ message: "Email sent", id: info.messageId });
+  } catch (error: unknown) {
+    console.error("Email send failed:", error);
+    const errorMessage = error instanceof Error ? error.message : "Internal error";
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
+  }
 }
-

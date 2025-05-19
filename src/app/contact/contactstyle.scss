@@ -170,12 +170,23 @@ padding: 40px;
 }
 
 @media (max-width: 768px) {
-  *:not(i){
-    width:100%!important;
+  *:not(a,svg){
+    width:100%;
     display:block!important;
     text-align: center!important;
     padding-left: 0!important;
     padding-right: 0!important;
+  }
+  form div {
+    width: 100%;
+  }
+
+  input,textarea {
+    width: 90%;
+    margin: 0 auto;
+  }
+  svg{
+    width: 20px;
   }
   a{
     width:auto!important;
@@ -192,6 +203,7 @@ padding: 40px;
   article{
     font-size: 1em;
   }
+
 
 
 
