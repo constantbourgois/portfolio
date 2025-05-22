@@ -119,6 +119,38 @@ nav li {
   }
 }
 
+h1 {
+  text-align: center;
+  position: relative;
+  font-size: 1.5em;
+  margin-bottom: 20%;
+  margin-top: 40px;
+}
 
+h1 span:first-child {
+  font-family: big;
+  font-size: 10vw;
+  color: var(--bleuinter);
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 span:last-child {
+  font-family: var(--font-dancing);
+  font-size: 7.5vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7%;
+  bottom: 0;
+  color: white;
+}
+
+h2 {
+  font-family: var(--font-montserrat);
+  color: var(--bleufonce);
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-bottom: 5%;
+}
 
  

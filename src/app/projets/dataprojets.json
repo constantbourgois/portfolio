@@ -1,0 +1,74 @@
+[
+    {
+        "nom": "Fédération Française de Football",
+        "type": "Sport",
+        "skills": ["Html", "CSS/SCSS" , "React" , "Javascript" , "Jquery" , "Twig" , "Symfony" , "Animations SVG" , "UX/UI"],
+        "description": "Intégration et développement",
+        "image": "/img/logo-fff.svg",
+        "lien": "http://www.fff.fr/"
+    },
+    {
+        "nom": "Génération Numérique",
+        "type": "association publique",
+        "skills": ["Wordpress", "Html", "CSS/SCSS", "Php"],
+        "description": "Intégration et développement",
+        "image": "/img/logo-gn.svg",
+        "lien": "https://asso-generationnumerique.fr/"
+    },
+    {
+        "nom": "Clover",
+        "type": "création d'entreprise",
+        "skills": ["Wordpress", "Html", "CSS/SCSS", "Php"],
+        "description": "Intégration et développement, customisation du thème",
+        "image": "/img/logo-clover.svg",
+        "lien": "http://clover.constantbourgois.com/"
+    },
+    {
+        "nom": "Parquet Cote Basque",
+        "type": "distributeurs de parquets",
+        "skills": ["Wordpress", "Html", "CSS/SCSS", "Php", "API"],
+        "description": "Customisation d'un plugin pour synchroniser le contenu de différents sites",
+        "image": "/img/parquet-cote-basque-logo.svg",
+        "lien": "https://catalogue.e-bony.com/"
+    },
+    {
+        "nom": "Maison de l’Architecture",
+        "type": "association d'architectes",
+        "skills": ["Wordpress", "Html", "Php", "API"],
+        "description": "Création d'un plugin pour synchroniser une page de bibliothèque avec l'API Zotero utilisable par Elementor",
+        "image": "/img/MAFC-logo-minimal.svg",
+        "lien": "https://www.maisondelarchi-fc.fr/bibliotheque/"
+    },
+    {
+        "nom": "Les Ateliers du Préau",
+        "type": "leaders des activités pour enfants",
+        "skills": ["Wordpress", "Html", "CSS/SCSS", "Php", "UX/UI"],
+        "description": "Intégration et développement, gestion du site, customisation du thème",
+        "image": "/img/logo-atdp.svg",
+        "lien": "https://lesateliersdupreau.fr/"
+    },
+    {
+        "nom": "Maupassant Partenaires",
+        "type": "Services financiers",
+        "skills": ["Html", "CSS/SCSS" , "Php" , "Javascript" , "Jquery" , "CodeIgniter", "Animations SVG"],
+        "description": "Intégration, développement, création d'un mini CMS et réalisation d'une animation en SVG",
+        "image": "/img/logo-mp.svg",
+        "lien": "http://maupassant.constantbourgois.com/"
+    },
+    {
+        "nom": "Duel",
+        "type": "Groupe Pop",
+        "skills": ["Html", "CSS/SCSS" , "Javascript" , "Jquery"],
+        "description": "Intégration et Développement",
+        "image": "/img/logo-duel.svg",
+        "lien": "http://duel.constantbourgois.com/"
+    },
+    {
+        "nom": "Pulsss",
+        "type": "Plateforme de financement participatif",
+        "skills": ["Html", "CSS/SCSS" , "Bootstrap"],
+        "description": "Intégration",
+        "image": "/img/logo-pulsss.svg",
+        "lien": "http://pulsss.constantbourgois.com/"
+    }
+]
