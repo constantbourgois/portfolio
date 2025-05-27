@@ -32,6 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html className={`${montserrat.variable} ${dancing.variable} ${hind.variable} `} lang="fr">
+      <link
+        rel="icon"
+        href="/icon?<generated>"
+        type="image/<generated>"
+        sizes="<generated>"
+      />
       <body>
         <Menu></Menu>
         <main>

@@ -8,6 +8,14 @@
         "lien": "http://www.fff.fr/"
     },
     {
+        "nom": "IMI Norgren",
+        "type": "Technologie du contrôle du mouvement ",
+        "skills": ["Html", "CSS/SCSS" , "React" , "Javascript" , "Jquery" , "UX/UI"],
+        "description": "Responsable du développement front d'un ERP",
+        "image": "/img/logo-norgren.svg",
+        "lien": "https://www.norgren.com"
+    },
+    {
         "nom": "Génération Numérique",
         "type": "association publique",
         "skills": ["Wordpress", "Html", "CSS/SCSS", "Php"],
